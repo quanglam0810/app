@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.LienHeActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcontact"
+        android:background="#fff"
+        app:titleTextColor="#000"
+        app:title="Liên hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/hinhnen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_gravity="center"
+
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:text="Nhân Viên"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingTop="0dp"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:textColor="#000000"
+                android:text="Nhóm:15~sdt: 0971010281~24/24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingTop="0dp"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:textColor="#000000"
+                android:text="Trần Đăng Vũ, Phan Định, Lê Hữu Quốc Khách, Bùi Quang Lâm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/boder"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="30dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:textColor="#000000"-->
+<!--                android:text="Email: https://www.uit.edu.vn"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/boder"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="30dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:textColor="#000000"-->
+<!--                android:text="Sđt: 0123456789"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content" />-->
+        </LinearLayout>
+    </LinearLayout>
